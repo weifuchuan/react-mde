@@ -1,0 +1,9 @@
+@import "variables.scss";
+
+.mde-text {
+  overflow-y: auto;
+  .public-DraftEditor-content {
+    width: 100%;
+    padding: $mde-editor-padding;
+  }
+}
